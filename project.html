@@ -172,7 +172,16 @@
       gap: 8px;
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     }
+    .btn_primary {
+      background: linear-gradient(90deg, var(--primary), var(--primary-dark));
+      color: white;
+    }
 
+    .btn.primary:hover {
+      background: linear-gradient(90deg, var(--primary-dark), var(--primary));
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(37, 99, 235, 0.4);
+    }
     .btn.primary {
       background: linear-gradient(90deg, var(--primary), var(--primary-dark));
       color: white;
@@ -349,7 +358,7 @@
         </div>
         
         <div class="poster-controls">
-          <button class="btn primary" onclick="window.location.href='https://drive.google.com/drive/folders/1jGQel4E0EYdiDEroFg6qQ-ylsSqBG6Im'">
+          <button class="btn_primary" onclick="window.location.href='https://drive.google.com/drive/folders/1jGQel4E0EYdiDEroFg6qQ-ylsSqBG6Im'">
           <i class="fas fa-download"></i> asset
           </button>
           
@@ -357,8 +366,7 @@
       </div>
     </div>
     
-    <div class="design-process">
-      <h2 class="section-title">Design Process</h2>
+ 
       
   
     
